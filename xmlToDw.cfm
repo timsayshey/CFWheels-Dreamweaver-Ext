@@ -1,6 +1,6 @@
 <!--- Converts CFWheels API XML File to XML that is compatible with dreamweaver --->
 
-<cfhttp url="http://wsbeta.osment.com/_sandbox/cfwheels%20src/function.xml" method="get">
+<cfhttp url="/_sandbox/cfwheels%20src/function.xml" method="get">
 <cfhttpparam type="header" name="accept-encoding" value="deflate;q=0">
 <cfhttpparam type="header" name="te" value="deflate;q=0">
 </cfhttp>
