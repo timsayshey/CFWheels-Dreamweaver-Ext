@@ -1,0 +1,41 @@
+<macromedia-extension
+	 name="CF Wheels Code Hinting"
+	 version="1.0.0"
+	 type="CodeColoring"
+	 requires-restart="true">
+
+	<author name="Tim Badolato" />
+
+	<products>
+		<product name="Dreamweaver" version="6" primary="true" />
+	</products>
+
+	<description>
+	<![CDATA[
+	Code Hints for the CF Wheels Framework. This version contains all CF Wheels 1.0.x functions.<br>
+<br>
+Instructions: Code Hints appear in Code View. To access code hints, press Ctrl+Space (in Code View) while editing Coldfusion files.	<br>
+<br>
+To get the latest version, make sure you download this extension from http://TriuneLabs.com	<br>
+<br>
+Copyright TriuneLabs.com 2010
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	Release Date: 12-17-2010
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	Copyright TriuneLabs.com 2010
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="cfwheels10x.xml" destination="$dreamweaver\configuration\codehints" />
+	</files>
+
+</macromedia-extension>

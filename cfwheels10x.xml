@@ -1,0 +1,185 @@
+<codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+
+<menugroup MMString:name="cfwheelshints_0" enabled="true" id="CFWheelsHints_Functions">
+	<description>
+		<MMString:loadString id="cfwheelshints_1" />
+	</description>
+
+	<!-- CFWheels Functions -->
+<function pattern="addError(string:property,string:message,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="addErrorToBase(string:message,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="addRoute(string:name,string:pattern,string:controller,string:action)" doctypes="ColdFusion,CFC" />
+<function pattern="afterCreate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterDelete(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterFind(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterInitialization(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterNew(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterSave(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterUpdate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterValidation(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterValidationOnCreate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="afterValidationOnUpdate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="allChanges()" doctypes="ColdFusion,CFC" />
+<function pattern="allErrors()" doctypes="ColdFusion,CFC" />
+
+<function pattern="autoLink(string:text,string:link)" doctypes="ColdFusion,CFC" />
+<function pattern="average(string:property,string:where,string:include,boolean:distinct)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeCreate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeDelete(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeSave(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeUpdate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeValidation(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeValidationOnCreate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="beforeValidationOnUpdate(string:methods)" doctypes="ColdFusion,CFC" />
+<function pattern="belongsTo(string:name,string:class,string:foreignKey,string:joinType)" doctypes="ColdFusion,CFC" />
+<function pattern="buttonTo(string:text,string:confirm,string:image,any:disable,string:route,string:controller,string:action,any:key,string:params,string:anchor,boolean:onlyPath,string:host,string:protocol,numeric:port)" doctypes="ColdFusion,CFC" />
+<function pattern="caches(string:actions,numeric:time)" doctypes="ColdFusion,CFC" />
+<function pattern="capitalize(string:text)" doctypes="ColdFusion,CFC" />
+<function pattern="changedFrom(string:property)" doctypes="ColdFusion,CFC" />
+<function pattern="changedProperties()" doctypes="ColdFusion,CFC" />
+<function pattern="checkBox(any:objectName,string:property,string:checkedValue,string:uncheckedValue,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="checkBoxTag(string:name,boolean:checked,string:value,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+
+<function pattern="clearErrors(string:property,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="columnNames()" doctypes="ColdFusion,CFC" />
+<function pattern="contentForLayout()" doctypes="ColdFusion,CFC" />
+<function pattern="count(string:where,string:include)" doctypes="ColdFusion,CFC" />
+<function pattern="create(struct:properties,boolean:defaults,any:parameterize)" doctypes="ColdFusion,CFC" />
+<function pattern="cycle(string:values,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="dataSource(string:datasource,string:username,string:password)" doctypes="ColdFusion,CFC" />
+<function pattern="dateSelect(any:objectName,string:property,string:order,string:separator,numeric:startYear,numeric:endYear,string:monthDisplay,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="dateSelectTags(string:name,date:selected,string:order,string:separator,numeric:startYear,numeric:endYear,string:monthDisplay,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="dateTimeSelect(string:objectName,string:property,string:dateOrder,string:dateSeparator,numeric:startYear,numeric:endYear,string:monthDisplay,string:timeOrder,string:timeSeparator,numeric:minuteStep,string:separator,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="dateTimeSelectTags(string:dateOrder,string:dateSeparator,numeric:startYear,numeric:endYear,string:monthDisplay,string:timeOrder,string:timeSeparator,numeric:minuteStep,string:separator,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="daySelectTag(string:name,date:selected,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="delete(any:parameterize)" doctypes="ColdFusion,CFC" />
+<function pattern="deleteAll(string:where,string:include,any:parameterize,boolean:instantiate)" doctypes="ColdFusion,CFC" />
+<function pattern="deleteByKey(any:key)" doctypes="ColdFusion,CFC" />
+<function pattern="deleteOne(string:where,string:order)" doctypes="ColdFusion,CFC" />
+<function pattern="deobfuscateParam(string:param)" doctypes="ColdFusion,CFC" />
+
+<function pattern="distanceOfTimeInWords(date:fromTime,date:toTime,boolean:includeSeconds)" doctypes="ColdFusion,CFC" />
+<function pattern="endFormTag()" doctypes="ColdFusion,CFC" />
+<function pattern="errorCount(string:property,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="errorMessageOn(string:objectName,string:property,string:prependText,string:appendText,string:wrapperElement,string:class)" doctypes="ColdFusion,CFC" />
+<function pattern="errorMessagesFor(string:objectName,string:class,boolean:showDuplicates)" doctypes="ColdFusion,CFC" />
+<function pattern="errorsOn(string:property,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="errorsOnBase(string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="excerpt(string:text,string:phrase,numeric:radius,string:excerptString)" doctypes="ColdFusion,CFC" />
+<function pattern="exists(any:key,string:where,boolean:reload,any:parameterize)" doctypes="ColdFusion,CFC" />
+<function pattern="fileField(any:objectName,string:property,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="fileFieldTag(string:name,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="filters(string:through,string:type,string:only,string:except)" doctypes="ColdFusion,CFC" />
+<function pattern="findAll(string:where,string:order,string:select,boolean:distinct,string:include,numeric:maxRows,numeric:page,numeric:perPage,numeric:count,string:handle,any:cache,boolean:reload,any:parameterize,string:returnAs,boolean:returnIncluded)" doctypes="ColdFusion,CFC" />
+<function pattern="findByKey(any:key,string:select,string:include,any:cache,boolean:reload,any:parameterize,string:returnAs)" doctypes="ColdFusion,CFC" />
+<function pattern="findOne(string:where,string:order,string:select,string:include,any:cache,boolean:reload,any:parameterize,string:returnAs)" doctypes="ColdFusion,CFC" />
+<function pattern="flash(string:key)" doctypes="ColdFusion,CFC" />
+<function pattern="flashClear()" doctypes="ColdFusion,CFC" />
+
+<function pattern="flashCount()" doctypes="ColdFusion,CFC" />
+<function pattern="flashDelete(string:key)" doctypes="ColdFusion,CFC" />
+<function pattern="flashInsert()" doctypes="ColdFusion,CFC" />
+<function pattern="flashIsEmpty()" doctypes="ColdFusion,CFC" />
+<function pattern="flashKeyExists(string:key)" doctypes="ColdFusion,CFC" />
+<function pattern="get(string:name,string:functionName)" doctypes="ColdFusion,CFC" />
+<function pattern="hasChanged(string:property)" doctypes="ColdFusion,CFC" />
+<function pattern="hasErrors(string:property,string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="hasMany(string:name,string:class,string:foreignKey,string:joinType,string:shortcut,string:through)" doctypes="ColdFusion,CFC" />
+<function pattern="hasOne(string:name,string:class,string:foreignKey,string:joinType)" doctypes="ColdFusion,CFC" />
+<function pattern="hiddenField(any:objectName,string:property)" doctypes="ColdFusion,CFC" />
+<function pattern="hiddenFieldTag(string:name,string:value)" doctypes="ColdFusion,CFC" />
+<function pattern="highlight(string:text,string:phrases,string:class)" doctypes="ColdFusion,CFC" />
+<function pattern="hourSelectTag(string:name,date:selected,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="humanize(string:text)" doctypes="ColdFusion,CFC" />
+<function pattern="imageTag(string:source)" doctypes="ColdFusion,CFC" />
+<function pattern="includePartial(any:partial,string:group,any:cache,string:layout,string:spacer)" doctypes="ColdFusion,CFC" />
+
+<function pattern="isAjax()" doctypes="ColdFusion,CFC" />
+<function pattern="isGet()" doctypes="ColdFusion,CFC" />
+<function pattern="isNew()" doctypes="ColdFusion,CFC" />
+<function pattern="isPost()" doctypes="ColdFusion,CFC" />
+<function pattern="javaScriptIncludeTag(string:sources,string:type)" doctypes="ColdFusion,CFC" />
+<function pattern="key()" doctypes="ColdFusion,CFC" />
+<function pattern="linkTo(string:text,string:confirm,string:route,string:controller,string:action,any:key,string:params,string:anchor,boolean:onlyPath,string:host,string:protocol,numeric:port)" doctypes="ColdFusion,CFC" />
+<function pattern="mailTo(string:emailAddress,string:name,boolean:encode)" doctypes="ColdFusion,CFC" />
+<function pattern="maximum(string:property,string:where,string:include)" doctypes="ColdFusion,CFC" />
+<function pattern="minimum(string:property,string:where,string:include)" doctypes="ColdFusion,CFC" />
+<function pattern="minuteSelectTag(string:name,date:selected,numeric:minuteStep,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="model(string:name)" doctypes="ColdFusion,CFC" />
+<function pattern="monthSelectTag(string:name,date:selected,string:monthDisplay,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="new(struct:properties,boolean:defaults)" doctypes="ColdFusion,CFC" />
+<function pattern="obfuscateParam(any:param)" doctypes="ColdFusion,CFC" />
+<function pattern="pagination(string:handle)" doctypes="ColdFusion,CFC" />
+<function pattern="paginationLinks(numeric:windowSize,boolean:alwaysShowAnchors,string:anchorDivider,boolean:linkToCurrentPage,string:prepend,string:append,string:prependToPage,boolean:prependOnFirst,string:appendToPage,boolean:appendOnLast,string:classForCurrent,string:handle,string:name,boolean:showSinglePage)" doctypes="ColdFusion,CFC" />
+
+<function pattern="passwordField(any:objectName,string:property,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="passwordFieldTag(string:name,string:value,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="pluginNames()" doctypes="ColdFusion,CFC" />
+<function pattern="pluralize(string:word,numeric:count,boolean:returnCount)" doctypes="ColdFusion,CFC" />
+<function pattern="primaryKey()" doctypes="ColdFusion,CFC" />
+<function pattern="properties()" doctypes="ColdFusion,CFC" />
+<function pattern="property(string:name,string:column,string:sql)" doctypes="ColdFusion,CFC" />
+<function pattern="propertyNames()" doctypes="ColdFusion,CFC" />
+<function pattern="radioButton(any:objectName,string:property,string:tagValue,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="radioButtonTag(string:name,string:value,boolean:checked,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="redirectTo(boolean:back,boolean:addToken,numeric:statusCode,string:route,string:controller,string:action,any:key,string:params,string:anchor,boolean:onlyPath,string:host,string:protocol,numeric:port)" doctypes="ColdFusion,CFC" />
+<function pattern="reload()" doctypes="ColdFusion,CFC" />
+<function pattern="renderNothing()" doctypes="ColdFusion,CFC" />
+<function pattern="renderPage(string:controller,string:action,string:template,any:layout,any:cache,string:returnAs)" doctypes="ColdFusion,CFC" />
+<function pattern="renderPartial(string:partial,any:cache,string:layout,string:returnAs)" doctypes="ColdFusion,CFC" />
+<function pattern="renderText(any:text)" doctypes="ColdFusion,CFC" />
+<function pattern="resetCycle(string:name)" doctypes="ColdFusion,CFC" />
+
+<function pattern="save(any:parameterize,boolean:defaults,boolean:validate)" doctypes="ColdFusion,CFC" />
+<function pattern="secondSelectTag(string:name,date:selected,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="select(any:objectName,string:property,any:options,any:includeBlank,string:valueField,string:textField,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="selectTag(string:name,any:options,string:selected,any:includeBlank,boolean:multiple,string:valueField,string:textField,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="sendEmail(string:templates,string:from,string:to,string:subject,any:layouts,boolean:detectMultipart)" doctypes="ColdFusion,CFC" />
+<function pattern="sendFile(string:file,string:name,string:type,string:disposition)" doctypes="ColdFusion,CFC" />
+<function pattern="set()" doctypes="ColdFusion,CFC" />
+<function pattern="setProperties(struct:properties)" doctypes="ColdFusion,CFC" />
+<function pattern="simpleFormat(string:text,boolean:wrap)" doctypes="ColdFusion,CFC" />
+<function pattern="singularize(string:word)" doctypes="ColdFusion,CFC" />
+<function pattern="startFormTag(string:method,boolean:multipart,boolean:spamProtection,string:route,string:controller,string:action,any:key,string:params,string:anchor,boolean:onlyPath,string:host,string:protocol,numeric:port)" doctypes="ColdFusion,CFC" />
+<function pattern="stripLinks(string:html)" doctypes="ColdFusion,CFC" />
+<function pattern="stripTags(string:html)" doctypes="ColdFusion,CFC" />
+<function pattern="styleSheetLinkTag(string:sources,string:type,string:media)" doctypes="ColdFusion,CFC" />
+<function pattern="submitTag(string:value,string:image,any:disable)" doctypes="ColdFusion,CFC" />
+<function pattern="sum(string:property,string:where,string:include,boolean:distinct)" doctypes="ColdFusion,CFC" />
+<function pattern="table(string:name)" doctypes="ColdFusion,CFC" />
+
+<function pattern="tableName()" doctypes="ColdFusion,CFC" />
+
+<function pattern="textArea(any:objectName,string:property,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="textAreaTag(string:name,string:content,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="textField(any:objectName,string:property,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="textFieldTag(string:name,string:value,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="timeAgoInWords(date:fromTime,boolean:includeSeconds,date:toTime)" doctypes="ColdFusion,CFC" />
+<function pattern="timeSelect(any:objectName,string:property,string:order,string:separator,numeric:minuteStep,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel,string:errorElement)" doctypes="ColdFusion,CFC" />
+<function pattern="timeSelectTags(string:name,date:selected,string:order,string:separator,numeric:minuteStep,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+<function pattern="timeUntilInWords(date:toTime,boolean:includeSeconds,date:fromTime)" doctypes="ColdFusion,CFC" />
+<function pattern="titleize(string:word)" doctypes="ColdFusion,CFC" />
+<function pattern="truncate(string:text,numeric:length,string:truncateString)" doctypes="ColdFusion,CFC" />
+<function pattern="update(struct:properties,any:parameterize)" doctypes="ColdFusion,CFC" />
+<function pattern="updateAll(string:where,string:include,struct:properties,any:parameterize,boolean:instantiate)" doctypes="ColdFusion,CFC" />
+<function pattern="updateByKey(any:key,struct:properties)" doctypes="ColdFusion,CFC" />
+<function pattern="updateOne(string:where,string:order,struct:properties)" doctypes="ColdFusion,CFC" />
+<function pattern="URLFor(string:route,string:controller,string:action,any:key,string:params,string:anchor,boolean:onlyPath,string:host,string:protocol,numeric:port)" doctypes="ColdFusion,CFC" />
+<function pattern="valid()" doctypes="ColdFusion,CFC" />
+
+<function pattern="validate(string:methods,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validateOnCreate(string:methods,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validateOnUpdate(string:methods,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesConfirmationOf(string:properties,string:message,string:when,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesExclusionOf(string:properties,string:list,string:message,string:when,boolean:allowBlank,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesFormatOf(string:properties,string:regEx,string:type,string:message,string:when,boolean:allowBlank,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesInclusionOf(string:properties,string:list,string:message,string:when,boolean:allowBlank,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesLengthOf(string:properties,string:message,string:when,boolean:allowBlank,numeric:exactly,numeric:maximum,numeric:minimum,string:within,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesNumericalityOf(string:properties,string:message,string:when,boolean:allowBlank,boolean:onlyInteger,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesPresenceOf(string:properties,string:message,string:when,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="validatesUniquenessOf(string:properties,string:message,string:when,boolean:allowBlank,string:scope,string:if,string:unless)" doctypes="ColdFusion,CFC" />
+<function pattern="verifies(string:only,string:except,any:post,any:get,any:ajax,string:cookie,string:session,string:params,string:handler)" doctypes="ColdFusion,CFC" />
+<function pattern="yearSelectTag(string:name,date:selected,numeric:startYear,numeric:endYear,any:includeBlank,string:label,string:labelPlacement,string:prepend,string:append,string:prependToLabel,string:appendToLabel)" doctypes="ColdFusion,CFC" />
+	
+</menugroup>
+</codehints>
